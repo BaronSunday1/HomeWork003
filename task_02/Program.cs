@@ -23,4 +23,4 @@ double betweenY = Math.Pow(coordinateB[1] - coordinateA[1], 2);
 double betweenK = Math.Pow(coordinateB[2] - coordinateA[2], 2);
 double result = Math.Sqrt(betweenX + betweenY + betweenK);
 
-System.Console.Write("Расстояние равно: " + result);
+System.Console.Write("Расстояние равно: " + Math.Round(result, 4));
