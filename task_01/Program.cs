@@ -11,7 +11,6 @@ if (number!.Length < 5)
 }
 else if (number[0] == number[4] && number[1] == number[3])
 {
-    
     System.Console.WriteLine("Число палиндром");
 }
 else
